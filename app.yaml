@@ -1,0 +1,20 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+  - url: /static
+    static_dir: wpro
+
+  - url: /style
+    static_dir: wpro/style
+
+  - url: /js
+    static_dir: wpro/js
+
+  - url: /(.*\.(html|css|js|png|jpg))$
+    static_files: wpro/\1
+    upload: wpro/(.*)
+
+  - url: /.*
+    script: main.app

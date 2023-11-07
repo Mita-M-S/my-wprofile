@@ -1,0 +1,73 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Style header section */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+/* Style container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  text-align: center;
+}
+
+/* Style profile picture */
+.profile-picture img {
+  max-width: 25%;
+  height: auto;
+  border: 5px solid #333;
+  border-radius: 50%;
+}
+
+/* Style skills list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.project-picture {
+  text-align: center;
+}
+
+/* Style portfolio images */
+.project-picture img {
+  max-width: 40%;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* Style contact links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+h2,
+p,
+ul {
+  text-align: center;
+}
